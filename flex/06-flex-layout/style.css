@@ -25,3 +25,61 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* SOLUTION */
+
+a {
+  /* removes underlink in hyperlink */
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background: #eee;
+}
+
+.button {
+  padding: 8px 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* When we use flex: 1 we are allowing it to grow to the container */
+  flex: 1
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  
+}
+
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+
